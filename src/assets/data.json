@@ -1,0 +1,49 @@
+[{
+        "id": 1,
+        "frontCard": "../../../assets/images/uefa.jpg",
+        "backCard": "../../../assets/images/liverpool.png",
+        "name": "liverpool"
+    },
+    {
+        "id": 2,
+        "frontCard": "../../../assets/images/uefa.jpg",
+        "backCard": "../../../assets/images/atletico-de-madrid.png",
+        "name": "atletico-de-madrid"
+    },
+    {
+        "id": 3,
+        "frontCard": "../../../assets/images/uefa.jpg",
+        "backCard": "../../../assets/images/bayern-munchen.png",
+        "name": "bayern-munchen"
+    },
+    {
+        "id": 4,
+        "frontCard": "../../../assets/images/uefa.jpg",
+        "backCard": "../../../assets/images/benfica.png",
+        "name": "benfica"
+    },
+    {
+        "id": 5,
+        "frontCard": "../../../assets/images/uefa.jpg",
+        "backCard": "../../../assets/images/chelsea.png",
+        "name": "chelsea"
+    },
+    {
+        "id": 6,
+        "frontCard": "../../../assets/images/uefa.jpg",
+        "backCard": "../../../assets/images/manchester-city.png",
+        "name": "manchester-city"
+    },
+    {
+        "id": 7,
+        "frontCard": "../../../assets/images/uefa.jpg",
+        "backCard": "../../../assets/images/real-madrid.png",
+        "name": "real-madrid"
+    },
+    {
+        "id": 8,
+        "frontCard": "../../../assets/images/uefa.jpg",
+        "backCard": "../../../assets/images/villarreal.png",
+        "name": "villarreal"
+    }
+]

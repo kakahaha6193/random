@@ -1,0 +1,121 @@
+[{
+        "id": 1,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Arsenal-FC-Logo-PNG.png",
+        "name": "Arsenal-FC"
+    },
+    {
+        "id": 2,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Aston-Villa-FC-Logo-PNG.png",
+        "name": "Aston-Villa-FC"
+    },
+    {
+        "id": 3,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Brighton-Hove-Albion-FC-Logo-PNG.png",
+        "name": "Brighton-Hove-Albion-FC"
+    },
+    {
+        "id": 4,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Chelsea-FC-Logo-PNG.png",
+        "name": "Chelsea-FC-Logo-PNG"
+    },
+    {
+        "id": 5,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Crystal-Palace-FC-Logo-PNG.png",
+        "name": "Crystal-Palace-FC"
+    },
+    {
+        "id": 6,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Everton-FC-Logo-PNG.png",
+        "name": "Everton-FC"
+    },
+    {
+        "id": 7,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Leeds-United-FC-Logo-PNG.png",
+        "name": "Leeds-United-FC"
+    },
+    {
+        "id": 8,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Leicester-City-FC-Logo-PNG.png",
+        "name": "Leicester-City-FC"
+    },
+    {
+        "id": 9,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Liverpool-FC-Logo-PNG.png",
+        "name": "Liverpool-FC"
+    },
+    {
+        "id": 10,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Brighton-Hove-Albion-FC-Logo-PNG.png",
+        "name": "Brighton-Hove-Albion-FC"
+    },
+    {
+        "id": 11,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Manchester-City-FC-Logo-PNG.png",
+        "name": "Manchester-City-FC"
+    },
+    {
+        "id": 12,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Manchester-United-FC-Logo-PNG.png",
+        "name": "Manchester-United-FC"
+    },
+    {
+        "id": 13,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Newcastle-United-FC-Logo-PNG.png",
+        "name": "Newcastle-United-FC"
+    },
+    {
+        "id": 14,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Norwich-City-FC-Logo-PNG.png",
+        "name": "Norwich-City-FC"
+    },
+    {
+        "id": 15,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Southampton-FC-Logo-PNG.png",
+        "name": "Southampton-FC"
+    },
+    {
+        "id": 16,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Tottenham-Hotspur-FC-Logo-PNG.png",
+        "name": "Tottenham-Hotspur-FC"
+    },
+    {
+        "id": 17,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Watford-FC-Logo-PNG.png",
+        "name": "Watford-FC"
+    },
+    {
+        "id": 18,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/West-Ham-United-FC-Logo-PNG.png",
+        "name": "West-Ham-United-FC"
+    },
+    {
+        "id": 19,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Wolverhampton-Wanderers-FC-Logo-PNG.png",
+        "name": "Wolverhampton-Wanderers-FC"
+    },
+    {
+        "id": 20,
+        "frontCard": "../../../assets/images/premier-league.png",
+        "backCard": "../../../assets/images/Brentford-FC-Logo-PNG.png",
+        "name": "Brentford-FC"
+    }
+]

@@ -1,0 +1,59 @@
+﻿<div class="home-container">
+    <div class="home-left">
+        <div style="background-color: #fff; min-height: 600px; max-height: 600px; overflow: auto;">
+            <mat-form-field class="example-chip-list" appearance="fill">
+                <mat-label>Enter Player</mat-label>
+                <mat-chip-list #chipList aria-label="Player selection">
+                    <mat-chip *ngFor="let Player of Players" (removed)="remove(Player)">
+                        {{ Player.name }}
+                        <mat-icon matChipRemove>cancel</mat-icon>
+                    </mat-chip>
+                    <input placeholder="New Player..." [matChipInputFor]="chipList" [matChipInputSeparatorKeyCodes]="separatorKeysCodes" [matChipInputAddOnBlur]="addOnBlur" (matChipInputTokenEnd)="add($event)" />
+                </mat-chip-list>
+            </mat-form-field>
+
+            <mat-list role="list">
+                <mat-label>Player List:</mat-label>
+                <mat-list-item role="listitem" *ngFor="let Player of Players; index as i">
+                    <button mat-button color="primary">
+              {{ i + 1 }}. {{ Player.name }}
+            </button>
+                </mat-list-item>
+            </mat-list>
+
+            <div class="example-label">Actions:</div>
+            <div class="example-button-row">
+                <div class="example-flex-container">
+                    <button (click)="merge(Players,Cards)" mat-mini-fab color="primary" aria-label="Example icon button with a menu icon">
+                <mat-icon>shuffle</mat-icon>
+              </button>
+                    <button (click)="loadPage()" mat-mini-fab color="primary" aria-label="Example icon button with a menu icon">
+                <mat-icon>repeat_on</mat-icon>
+              </button>
+                    <button (click)="pick()" mat-mini-fab color="primary" aria-label="Example icon button with a menu icon">
+                  <mat-icon>play_circle_outline</mat-icon>
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="home-center">
+        <div class="row" style="max-height: 600px; overflow: auto;">
+            <div class="col-3" *ngFor="let card of Cards; index as i">
+                <card-flip [card]="card" [player]="Picker[i]" [id]="'card'+i"></card-flip>
+            </div>
+        </div>
+    </div>
+    <div class="home-right">
+        <div style="background-color: #fff;max-height: 600px; overflow: auto;">
+            <mat-list role="list">
+                <mat-label>FootBall Club List:</mat-label>
+                <mat-list-item role="listitem" *ngFor="let Club of Clubs; index as i">
+                    <button mat-button color="primary">
+              {{ i + 1 }}. {{ Club.name }}
+            </button>
+                </mat-list-item>
+            </mat-list>
+        </div>
+    </div>
+</div>

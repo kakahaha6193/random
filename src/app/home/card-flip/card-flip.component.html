@@ -1,0 +1,12 @@
+<div class="flip-card">
+    <div class="flip-card-inner" [id]="id" (click)="flip()">
+        <div class="flip-card-front">
+            <img [src]="card.frontCard" alt="Avatar" style="width:250px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+            <h2 *ngIf="player == undefined">Player ???</h2>
+            <h2 *ngIf="player">Player {{player.name}}</h2>
+            <img [src]="card.backCard" alt="Avatar" style="width:200px;height:200px;">
+        </div>
+    </div>
+</div>
